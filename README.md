@@ -153,13 +153,13 @@ chmod +x setup.sh
 
 | 文档 | 说明 |
 |------|------|
-| [🚀 快速开始](docs/QUICKSTART.md) | 5 分钟快速体验 |
-| [📖 系统概述](docs/OVERVIEW.md) | 系统介绍 |
-| [🏗️ 架构设计](docs/ARCHITECTURE.md) | 技术架构详解 |
-| [📊 业务模型](docs/BUSINESS-MODEL.md) | 核心方法论 |
-| [🎯 适用场景](docs/SCENARIOS.md) | 多行业应用 |
-| [❓ 常见问题](docs/FAQ.md) | FAQ |
-| [📝 测试案例](docs/TEST_CASES.md) | 用户体验测试案例 |
+| [🚀 快速开始](QUICKSTART.md) | 5 分钟快速体验 |
+| [📖 系统概述](OVERVIEW.md) | 系统介绍 |
+| [🏗️ 架构设计](ARCHITECTURE.md) | 技术架构详解 |
+| [📊 业务模型](BUSINESS-MODEL.md) | 核心方法论 |
+| [🎯 适用场景](SCENARIOS.md) | 多行业应用 |
+| [❓ 常见问题](FAQ.md) | FAQ |
+| [📝 测试案例](TEST_CASES.md) | 用户体验测试案例 |
 
 ---
 
