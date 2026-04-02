@@ -61,7 +61,7 @@
 - 📊 **多维度对比** — 多家方案智能比价
 
 ### 2. 策略中心（B 端能力展示）
-- 🏭 **策略工厂** — 策略总览、新建策略、编辑策略
+- 🏭 **策略工厂** — 策略总览、新建策略
 - 🧪 **策略实验室** — 模拟测试、A/B 测试
 - 📈 **效果看板** — 全量发布、效果追踪
 - ⚙️ **渠道管理** — 渠道配置、动态调控
@@ -98,22 +98,21 @@
 ### 方式二：本地部署
 
 ```bash
-# 1. 克隆仓库
+# 克隆仓库
 git clone https://github.com/Thomasmaomao/complex-scheduling-ai.git
-cd complex-scheduling-ai/docs
+cd complex-scheduling-ai
 
-# 2. 运行部署脚本
-chmod +x setup.sh
-./setup.sh
+# 运行部署脚本
+./scripts/setup.sh
 
-# 3. 访问系统
-# 前端：http://localhost:8002
-# API 文档：http://localhost:8001/docs
+# 启动服务
+docker-compose up -d
+
+# 访问 http://localhost:8080
 ```
 
 **系统要求**：
 - Docker 20.10+
-- Docker Compose 2.0+
 - 内存 4GB+
 - 磁盘 10GB+
 
@@ -129,39 +128,60 @@ chmod +x setup.sh
 
 ---
 
-## 📸 系统截图
+## 📚 文档导航
 
-### 首页 - 智能业务决策平台
-![首页](screenshots/01_home_page.png)
-
-### 车险询价示例
-![车险询价](screenshots/02_car_insurance_quote.png)
-
-### 智能决策结果
-![决策结果](screenshots/03_decision_result.png)
-
-### 策略中心侧边栏
-![策略中心](screenshots/04_strategy_center_sidebar.png)
-
-### 策略总览
-![策略总览](screenshots/05_strategy_overview.png)
-
-### 情景分析
-![情景分析](screenshots/06_scenario_analysis.png)
+- [📖 系统概述](docs/OVERVIEW.md) — 完整介绍
+- [🏗️ 架构设计](docs/ARCHITECTURE.md) — 技术架构详解
+- [📊 业务模型](docs/BUSINESS-MODEL.md) — 核心方法论
+- [🎯 适用场景](docs/SCENARIOS.md) — 多行业应用
+- [🚀 部署指南](docs/DEPLOYMENT.md) — 本地部署步骤
+- [📝 API 文档](docs/API-REFERENCE.md) — 完整 API 说明
+- [❓ 常见问题](docs/FAQ.md) — FAQ
 
 ---
 
-## 📚 文档导航
+## 📸 系统截图
 
-| 文档 | 说明 |
-|------|------|
-| [🚀 快速开始](docs/QUICKSTART.md) | 5 分钟快速体验 |
-| [📖 系统概述](docs/OVERVIEW.md) | 系统介绍 |
-| [🏗️ 架构设计](docs/ARCHITECTURE.md) | 技术架构详解 |
-| [📊 业务模型](docs/BUSINESS-MODEL.md) | 核心方法论 |
-| [🎯 适用场景](docs/SCENARIOS.md) | 多行业应用 |
-| [❓ 常见问题](docs/FAQ.md) | FAQ |
-| [📝 测试案例](docs/TEST_CASES.md) | 用户体验测试案例 |
+### 首页 - 智能业务决策平台
+![首页](https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/all/EJq6bkJCHowLKUxCDhzcPdDSnBb)
+
+### 车险询价示例
+![车险询价](https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/all/CQwubrD93oOTNuxX2OacPJ3unVe)
+
+### 智能决策结果
+![决策结果](https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/all/SvOAb97pJoW6w8xUFABc9DLKnic)
+
+### 策略中心侧边栏
+![策略中心](https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/all/XN5ebvab7okH8gx1tfhctNr9nxQ)
+
+### 策略总览
+![策略总览](https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/all/ZyvgbG9FkokaLJx2qKPcTLPfnnN)
+
+### 情景分析
+![情景分析](https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/all/BbdSbInZBoCuMuxEKyfcwSAtn0c)
+
+> 更多截图详见飞书文档：[📸 截图拍摄清单](https://my.feishu.cn/docx/GMnDdAZOpoDeURx59bscENvYnPt)
+
+---
+
+## 🛡️ 数据安全说明
+
+- ✅ 演示数据完全脱敏
+- ✅ 使用代号（保司 A/B/C）
+- ✅ 敏感配置环境变量
+- ✅ 示例数据均为虚构
+
+详见：[SECURITY.md](SECURITY.md)
+
+---
+
+## 📄 版权说明
+
+**CC BY-NC-SA 4.0** — 禁止商用，详见 [LICENSE](LICENSE)
+
+- ✅ 允许学习、研究、修改、分享
+- ❌ **禁止商业用途**
+- ✅ 修改后必须使用相同协议
 
 ---
 
@@ -170,14 +190,12 @@ chmod +x setup.sh
 - 📧 Email: shufe_myj@outlook.com
 - 🌐 GitHub: https://github.com/Thomasmaomao/complex-scheduling-ai
 
-**版权说明**：CC BY-NC-SA 4.0 — 禁止商用
+---
+
+## 🙏 致谢
+
+本项目由 [OpenClaw](https://github.com/openclaw/openclaw) AI Agent 全栈开发。
 
 ---
 
 **🌟 如果这个项目对你有帮助，请给一个 Star！**
-
----
-
-**文档创建者**：AI Assistant  
-**最后更新**：2026-04-01  
-**版本**：Beta 1.0
